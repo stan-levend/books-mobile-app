@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 const baseURL = 'https://www.googleapis.com/books/v1/volumes'
-const API_key = 'AIzaSyAnu71GtPO5IZXR9BGHM9jumZbE0_b2T3U'
+const API_key = 'AIzaSyAnu71GtPO5IZXR9BGHM9jumZbE0_b2T3U' // Deprecated key
 
 export default () => {
   const [books, setBooks] = useState([])
